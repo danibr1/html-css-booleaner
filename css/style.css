@@ -1,0 +1,101 @@
+body{
+  margin:0;
+  padding:0;
+}
+
+/*HEADER SECTION */
+header {
+  height: 100px;
+  background-color: #4ea0ff;
+  background-image: url("../img/pattern.png");
+  background-size: 200px;
+  background-position: bottom;
+}
+
+.container-logo {
+  width: 70%;
+  margin: 10px auto;
+}
+
+#logo {
+  width: 150px;
+  margin-top:50px;
+}
+
+
+/*MAIN SECTION */
+main {
+  width: 70%;
+  margin: auto;
+}
+
+
+/* TITLE */
+h1 {
+  font-size: 40px;
+}
+
+
+/* AUTHOR */
+.writtenby {
+  color: grey;
+  font-size: 20px;
+}
+
+.author {
+  color: #4ea0ff;
+}
+
+#date {
+  font-size: 11px;
+}
+
+/* IMAGE DESCRIPTION */
+.description {
+  font-size: 10px;
+}
+
+
+/* HIGHLIGHTER */
+.highlight {
+  background-color: yellow;
+}
+
+
+/* TABLE */
+thead {
+  color: white;
+  background-color: #20a9e5;
+}
+
+.blue {
+  background-color: #b1e5f2;
+}
+
+
+
+/* BOTTOM IMAGES */
+.image {
+  width: 200px;
+  height: 200px;
+  color: white;
+  margin: 10px 0px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+
+
+/* IMAGE SECTION */
+#more {
+  color: gray;
+  font-weight: bold;
+}
+
+#mac {
+  background-image: url("../img/monitor.jpg");
+}
+
+#screen {
+  background-image: url("../img/graph.jpg");
+}
