@@ -1,114 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>The Bool</title>
-    
-    <!-- STYLE SHEET -->
-    <link rel="stylesheet" href="../css/style.css" />
+    <meta charset="utf-8">
+    <title>THE BOOLEANER</title>
+    <link rel="stylesheet" href="style.css">
   </head>
+
 
 
   <body>
 
-    <!--HEADER SECTION-->
-    <header>
-      <div class="container-logo">
-        <img id="logo" src="./img/logo.svg" alt="logo The Booleaner"/>
+    <!-- HEADER SECTION -->
+    <header clas="header">
+      <div class="logo">
+        <img id="logo" src="img/logo.svg" alt="logo">
       </div>
     </header>
 
-    <!--MAIN SECTION-->
-    <main>
-     
-      <!--TITLE SECTION-->
-      <section class="title">
-        <h1>
-          Internet deve essere al servizio del "bene pubblico": il manifesto di
-          Tim Berners-Lee
-        </h1>
 
-        <!-- AUTHOR AND DATE -->
-        <p class="writtenby">Scritto da <span class="author">The Booleaner</span> <br/>
+    <!-- MAIN CONTENT -->
+    <main>
+
+      <!-- TITLE SECTION -->
+      <section class="title">
+        <h1 class="title-content">Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Beners-Lee</h1>
+
+        <!-- AUTHOR -->
+        <div class="greytext">
+          Scritto da <span id="author">The Booleaner</span><br>
           <span id="date">il 10/10/2020</span>
-        </p>
+        </div>
       </section>
 
-      <!--IMAGES-->
+      <!-- TOP-IMAGE SECTION -->
       <section class="top-image">
-        <img src="./img/tim-1.jpg" alt="Tim Berners-Lee talking" />
-        <img src="./img/tim-2.jpg" alt="Tim Berners-Lee" />
-        
-        <!--IMAGE DESCRIPTION-->
+        <img src="img/tim-1.jpg" alt="tim1">
+        <img src="img/tim-2.jpg" alt="tim2">
+
         <div class="description">
-          1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen
+            1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen
         </div>
         <div class="description">
           2nd Photo: Wikimedia, by Paul Clarke
         </div>
       </section>
-      <div></div>
 
-      <!--TEXT SECTION-->
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. <span class="highlight">Vitae rem quibusdam et vel? Animi quaerat molestias officiis natus obcaecati maiores,</span> veritatis aliquid. Voluptatibus atque, officiis magnam necessitatibus accusantium distinctio quisquam.
-      </p>
-      <ul>
-        <li>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore esse
-          distinctio consequatur, tenetur mollitia possimus corporis eos alias
-          cum ratione obcaecati?
-        </li>
-        <li>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore esse
-          distinctio consequatur, tenetur mollitia possimus corporis eos alias
-          cum ratione obcaecati?
-        </li>
-        <li>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore esse
-          distinctio consequatur, tenetur mollitia possimus corporis eos alias
-          cum ratione obcaecati?
-        </li>
-      </ul>
+      <!-- TEXT SECTION -->
+      <section class="text">
+        <p class="text-content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <span class="highlighter">exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
 
+        <p class="text-list">
+          <ul>
+            <li>  Lorem ipsum dolor sit amet, consectetur adipisicing elit,</li>
+            <li>  Lorem ipsum dolor sit amet, consectetur adipisicing elit,</li>
+            <li>  Lorem ipsum dolor sit amet, consectetur adipisicing elit,</li>
+          </ul>
+        </p>
+      </section>
 
-      <table>
-        <thead>
-          <tr>
-            <th>Lorem ipsum dolor</th>
-            <th>Lorem ipsum dolor</th>
-            <th>Lorem ipsum dolor</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="blue">
-            <td>Lorem ipsum dolor</td>
-            <td>Lorem ipsum dolor</td>
-            <td>Lorem ipsum dolor</td>
-          </tr>
-          <tr>
-            <td>Lorem ipsum dolor</td>
-            <td>Lorem ipsum dolor</td>
-            <td>Lorem ipsum dolor</td>
-          </tr>
-          <tr class="blue">
-            <td>Lorem ipsum dolor</td>
-            <td>Lorem ipsum dolor</td>
-            <td>Lorem ipsum dolor</td>
-          </tr>
-        </tbody>
-      </table>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque at natus ad, iste tempora repellendus adipisci debitis sunt dolore itaque? Fugit et dolor qui excepturi sunt optio placeat dolore consectetur?Lorem ipsum dolor, sit amet consectetur adipisicing elit.<span class="highlight"> Iste consectetur dolorem nobis iusto deleniti ipsum</span>, dicta, omnis quod vero fuga dolor id suscipit! Reprehenderit itaque aut voluptates sapiente eligendi nobis.
-      </p>
+      <!-- TABLE SECTION -->
+      <section class="table">
+        <table>
+          <thead>
+            <tr>
+              <th>COL1</th>
+              <th>COL2</th>
+              <th>COL3</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="blue">
+              <td>riga1col1</td>
+              <td>riga1col2</td>
+              <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</td>
+            </tr>
+            <tr>
+              <td>riga2col1</td>
+              <td>riga2col2</td>
+              <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</td>
+            </tr>
+            <tr class="blue">
+              <td>riga3col1</td>
+              <td>riga3col2</td>
+              <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</td>
+            </tr>
+          </tbody>
+        </table>
 
-      <!--IMAGES SECTION-->
-      <section>
-        <div id="more">Potrebbero interessarti</div>
-        <div class="image" id="mac">Lorem ipsum dolor</div>
-        <div class="image" id="screen">Lorem ipsum dolor</div>
+      </section>
+
+      <!-- TEXT SECTION2 -->
+      <section class="text">
+        <p class="text-content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<span class="highlighter">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</span>. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </section>
+
+      <!-- BOTTOM-IMAGE SECTION -->
+      <section class="bottom-image-section">
+        <div class="suggested">
+          Potrebbero interessarti:
+        </div>
+        <div class="image" id="monitor">Lorem ipsum dolor</div>
+        <div class="image" id="graph">Lorem ipsum dolor</div>
       </section>
     </main>
   </body>
