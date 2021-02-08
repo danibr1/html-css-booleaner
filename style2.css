@@ -1,0 +1,112 @@
+/* UTILITY */
+body{
+  margin:0;
+  padding:0;
+  background-color: #0b131d;
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+main {
+    width: 60%;
+    margin: auto;
+}
+
+/* ----HEADER SECTION--- */
+/* BACKGROUN HEADER */
+header{
+  height: 80px;
+  background-color: #303c4b;
+  background-image:url(img/pattern.png);
+  background-size: 250px;
+}
+
+/*HEADER LOGO*/
+.logo{
+  width: 60%;
+  margin: 10px auto;
+}
+#logo{
+  width: 200px;
+  margin-top:30px;
+}
+
+/* ---TITLE SECTION--- */
+/* TITLE */
+.title{
+  margin: 10px 0;
+}
+
+h1{
+  font-size: 30px;
+  margin-bottom:5px;
+}
+
+/* AUTHOR */
+.greytext{
+  font-size: 15px;
+  color: grey;
+  line-height: 100%;
+  margin:auto;
+}
+#author{
+  color: #44b7e9;
+}
+#date{
+  font-size:10px;
+}
+
+/* ---IMAGE SECTION--- */
+.description{
+  font-size:10px;
+}
+
+/* TEXT SECTION */
+.highlighter{
+  background-color:#1a6794;
+}
+
+/* ---TABLE SECTION--- */
+table{
+  table-layout: fixed;
+  width: 100%;
+  border: 1px solid;
+  border-color: white;
+  /* border-collapse: collapse; */
+}
+th{
+  color: white;
+  background-color: #bd450d;
+}
+.blue{
+  background-color: #df9c45;
+}
+
+/* ---BOTTOM-IMAGE SECTION--- */
+.bottom-image-section{
+  margin-top:20px;
+}
+
+.suggested{
+  color: grey;
+  font-weight: bold;
+}
+
+.image {
+  width: 200px;
+  height: 150px;
+  color: white;
+  margin: 10px 0px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#monitor{
+  background-image: url("img/monitor.jpg");
+  background-size:cover;
+}
+
+#graph{
+  background-image: url("img/graph.jpg");
+  background-size:cover;
+}
